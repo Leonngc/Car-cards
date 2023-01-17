@@ -68,21 +68,7 @@ button {
   border: 0;
   font-family: var(--font-body);
   font-size: 15px;
-
 }
-
-#sedan-btn > a{
-    color: hsl(31, 77%, 52%);
-}
-
-#suv-btn > a{
-    color: hsl(184, 100%, 22%);
-}
-
-#luxury-btn > a{
-    color: hsl(179, 100%, 13%);
-}
-
 
 footer > p {
   background-color: rgb(233, 113, 2);
@@ -95,59 +81,26 @@ footer > p {
 }
 
 a {
-  text-decoration: none;
+  color: white;
 }
 
 /* Animations */
 button:hover {
   background-color: hsla(0, 0%, 54%, 0);
   border: 2px solid rgb(255, 255, 255);
-  
+  color: hsl(0, 0%, 100%);
 }
 
-#sedan-btn > a:hover , #suv-btn > a:hover, #luxury-btn > a:hover{
-    color: #FFF;
+a:hover {
+  font-size: 20px;
 }
-
-
 
 /* Media Queries */
-@media screen and (max-width: 650px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
-  }
-
-  .card {
-    height: 55vh;
-    width: 60vw;
-    padding-bottom: 110px;
-  }
-
-  .card > h2 {
-    font-size: 35px;
-    padding-top: 30px;
-    padding-bottom: 22px;
-  }
-  .card > p {
-    font-size: 18px;
-  }
-  #sedan {
-    border-radius: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  #luxury {
-    border-radius: 0px 0px 10px 10px;
-  }
-
-  button{
-    width: 180px;
-    padding: 10px;
-    border-radius: 20px;
-    margin-left: 12vw;
-  }
+@media screen and (max-width:375px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
+
