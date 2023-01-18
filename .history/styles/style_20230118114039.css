@@ -116,7 +116,7 @@ button:hover {
   main {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margu
     margin-top: 20vh;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -149,7 +149,6 @@ button:hover {
     width: 180px;
     padding: 10px;
     border-radius: 20px;
-    margin-left: 4vw;
-    align-content: center;
+    margin-left: 12vw;
   }
 }
